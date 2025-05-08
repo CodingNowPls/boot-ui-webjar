@@ -17,7 +17,7 @@ if exist "src\main\resources\webjars" (
 
 echo 执行打包web网页......
 
-call npm run build:production
+call npm run build:prod
 
 
 ::echo 拷贝dist文件到webjars中
@@ -29,7 +29,7 @@ call mvn clean
 
 call mvn package
 
-
-call move.bat
+:: 暂时先注释
+::call move.bat
 
 pause

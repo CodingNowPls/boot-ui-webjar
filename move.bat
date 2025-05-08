@@ -3,7 +3,7 @@ chcp 65001 >nul
 
 :: ========== 配置参数 ==========
 set "SERVER_LIB=E:\workspace\boot-java\lib"
-set "JAR_FILE=E:\workspace\boot-ui\target\boot-ui-1.0.0.jar"
+set "JAR_FILE=E:\workspace\boot-ui-webjar\target\boot-ui-1.0.0.jar"
 
 :: ========== 检查路径有效性 ==========
 if not exist "%JAR_FILE%" (
